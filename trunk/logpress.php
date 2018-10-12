@@ -17,7 +17,6 @@ class logpress
 	public function install()
 	{
 		$sql="
-
 CREATE TABLE `debug_logpress` (
   `log_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `log_on` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',

@@ -22,7 +22,7 @@ foreach($results as $log)
 ?>
 	<tr>
 		<td><?php echo $log->log_on; ?></td>
-		<td><?php echo $log->log_ip; ?></td>
+		<td><a href="http://www.traceip.net/?query=<?php echo $log->log_ip; ?>"><?php echo $log->log_ip; ?></a></td>
 		<td><?php echo $log->log_page; ?></td>
 	</tr>
 <?php

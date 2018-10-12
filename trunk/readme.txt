@@ -9,12 +9,12 @@ Requires PHP: 5.2.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Keeps a history of access logs.
+Keeps a short history of access logs.
 
 
 == Description ==
 
-Analytic purpose plugin to monitor access log.
+Plugin to analyze and monitor access log.
 
 
 == Installation ==
